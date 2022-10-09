@@ -30,7 +30,7 @@ function vowelCount(str){
 				m.set(charac, count);
 			}
 			else{
-				m.set(charac, count+=1);
+				m.set(charac, m.get(charac)+1);
 			};
 		}
 	}
